@@ -15,6 +15,7 @@
 		588721DF1D468DE100C8B764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 588721DD1D468DE100C8B764 /* LaunchScreen.storyboard */; };
 		588721EA1D468DE200C8B764 /* CoreDataOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588721E91D468DE200C8B764 /* CoreDataOneTests.swift */; };
 		588721F51D468DE200C8B764 /* CoreDataOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588721F41D468DE200C8B764 /* CoreDataOneUITests.swift */; };
+		588722031D468EB800C8B764 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588722021D468EB800C8B764 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		588721F01D468DE200C8B764 /* CoreDataOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		588721F41D468DE200C8B764 /* CoreDataOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataOneUITests.swift; sourceTree = "<group>"; };
 		588721F61D468DE200C8B764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588722021D468EB800C8B764 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588722031D468EB800C8B764 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +82,7 @@
 		588721C51D468DE100C8B764 = {
 			isa = PBXGroup;
 			children = (
+				588722021D468EB800C8B764 /* CoreData.framework */,
 				588721D01D468DE100C8B764 /* CoreDataOne */,
 				588721E81D468DE200C8B764 /* CoreDataOneTests */,
 				588721F31D468DE200C8B764 /* CoreDataOneUITests */,
