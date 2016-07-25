@@ -16,6 +16,13 @@
 		588721EA1D468DE200C8B764 /* CoreDataOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588721E91D468DE200C8B764 /* CoreDataOneTests.swift */; };
 		588721F51D468DE200C8B764 /* CoreDataOneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588721F41D468DE200C8B764 /* CoreDataOneUITests.swift */; };
 		588722031D468EB800C8B764 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588722021D468EB800C8B764 /* CoreData.framework */; };
+		5887220C1D4695CF00C8B764 /* einsteinTux.png in Resources */ = {isa = PBXBuildFile; fileRef = 588722051D4695CF00C8B764 /* einsteinTux.png */; };
+		5887220D1D4695CF00C8B764 /* indianaTux.png in Resources */ = {isa = PBXBuildFile; fileRef = 588722061D4695CF00C8B764 /* indianaTux.png */; };
+		5887220E1D4695CF00C8B764 /* matrixTux.png in Resources */ = {isa = PBXBuildFile; fileRef = 588722071D4695CF00C8B764 /* matrixTux.png */; };
+		5887220F1D4695CF00C8B764 /* ramboTux.png in Resources */ = {isa = PBXBuildFile; fileRef = 588722081D4695CF00C8B764 /* ramboTux.png */; };
+		588722101D4695CF00C8B764 /* samouraiTux.png in Resources */ = {isa = PBXBuildFile; fileRef = 588722091D4695CF00C8B764 /* samouraiTux.png */; };
+		588722111D4695CF00C8B764 /* scienceTux.png in Resources */ = {isa = PBXBuildFile; fileRef = 5887220A1D4695CF00C8B764 /* scienceTux.png */; };
+		588722121D4695CF00C8B764 /* yodaTux.png in Resources */ = {isa = PBXBuildFile; fileRef = 5887220B1D4695CF00C8B764 /* yodaTux.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,13 @@
 		588721F41D468DE200C8B764 /* CoreDataOneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataOneUITests.swift; sourceTree = "<group>"; };
 		588721F61D468DE200C8B764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		588722021D468EB800C8B764 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		588722051D4695CF00C8B764 /* einsteinTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = einsteinTux.png; sourceTree = "<group>"; };
+		588722061D4695CF00C8B764 /* indianaTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = indianaTux.png; sourceTree = "<group>"; };
+		588722071D4695CF00C8B764 /* matrixTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = matrixTux.png; sourceTree = "<group>"; };
+		588722081D4695CF00C8B764 /* ramboTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ramboTux.png; sourceTree = "<group>"; };
+		588722091D4695CF00C8B764 /* samouraiTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = samouraiTux.png; sourceTree = "<group>"; };
+		5887220A1D4695CF00C8B764 /* scienceTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scienceTux.png; sourceTree = "<group>"; };
+		5887220B1D4695CF00C8B764 /* yodaTux.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yodaTux.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +117,7 @@
 		588721D01D468DE100C8B764 /* CoreDataOne */ = {
 			isa = PBXGroup;
 			children = (
+				588722041D4695B700C8B764 /* images */,
 				588721D11D468DE100C8B764 /* AppDelegate.swift */,
 				588721D31D468DE100C8B764 /* ViewController.swift */,
 				588721D51D468DE100C8B764 /* Main.storyboard */,
@@ -130,6 +145,20 @@
 				588721F61D468DE200C8B764 /* Info.plist */,
 			);
 			path = CoreDataOneUITests;
+			sourceTree = "<group>";
+		};
+		588722041D4695B700C8B764 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				588722051D4695CF00C8B764 /* einsteinTux.png */,
+				588722061D4695CF00C8B764 /* indianaTux.png */,
+				588722071D4695CF00C8B764 /* matrixTux.png */,
+				588722081D4695CF00C8B764 /* ramboTux.png */,
+				588722091D4695CF00C8B764 /* samouraiTux.png */,
+				5887220A1D4695CF00C8B764 /* scienceTux.png */,
+				5887220B1D4695CF00C8B764 /* yodaTux.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,9 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5887220D1D4695CF00C8B764 /* indianaTux.png in Resources */,
+				588722111D4695CF00C8B764 /* scienceTux.png in Resources */,
 				588721DF1D468DE100C8B764 /* LaunchScreen.storyboard in Resources */,
 				588721DC1D468DE100C8B764 /* Assets.xcassets in Resources */,
+				5887220C1D4695CF00C8B764 /* einsteinTux.png in Resources */,
+				588722101D4695CF00C8B764 /* samouraiTux.png in Resources */,
+				5887220E1D4695CF00C8B764 /* matrixTux.png in Resources */,
 				588721D71D468DE100C8B764 /* Main.storyboard in Resources */,
+				588722121D4695CF00C8B764 /* yodaTux.png in Resources */,
+				5887220F1D4695CF00C8B764 /* ramboTux.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

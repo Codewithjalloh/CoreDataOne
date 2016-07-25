@@ -30,7 +30,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
             print("Error!")
         }
         
-        let request = NSFetchRequest(entityName: "cell")
+        let request = NSFetchRequest(entityName: "Cell")
         request.returnsObjectsAsFaults = false
         results = try? context.executeFetchRequest(request)
         
@@ -46,6 +46,27 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return results!.count
+        
+    }
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell:UITableViewCell = UITableViewCell(style: .Subtitle, reuseIdentifier: nil)
+        let aux = results![indexPath.row] as! NSManagedObject
+        
+        cell.textLabel!.text = aux.valueForKey("title") as? String
+        cell.detailTextLabel?.text = aux.valueForKey("subtitle") as? String
+        cell.imageView!.image = UIImage(named: aux.valueForKey("image") as! String)
+        
+        return cell
+        
+    }
+    
+    func tableView(tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return "TuxMania"
     }
 
 
